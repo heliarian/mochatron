@@ -52,8 +52,7 @@ app.on('ready', function() {
     width: 1600,
     show: config.window,
     webPreferences: {
-      preloadURL: preloadURL,
-      nodeIntegration: false
+      preloadURL: preloadURL
     }
   });
 
